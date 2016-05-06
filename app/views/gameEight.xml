@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container">
+		<View id="screenView">
+			<View id="gameView">
+				<View id="horizontalView"></View>
+			</View>
+		</View>
+	</Window>
+</Alloy>

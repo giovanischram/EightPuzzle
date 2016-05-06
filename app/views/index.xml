@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container">
+		<View id="screenView">
+			<View id="gameEightButton" onClick="openGameEight">
+				<Label id="gameEightLabel"></Label>
+			</View>
+		</View>
+	</Window>
+</Alloy>

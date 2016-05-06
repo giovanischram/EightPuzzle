@@ -1,0 +1,22 @@
+".container": {
+	backgroundColor:"#C1CDCD",
+	exitOnClose: false,
+	fullscreen: false,
+	navBarHidden: true,
+	orientationModes: [Ti.UI.PORTRAIT]
+},
+"#screenView": {
+	width: '100%',
+	height: '100%'
+},
+"#gameView": {
+	backgroundColor: '#838B8B',
+	borderRadius: 10,
+	width: '95%',
+	height: '60%'
+},
+"#horizontalView": {
+	layout: 'horizontal',
+	width: '98%',
+	height: '97%'
+}

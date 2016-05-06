@@ -1,0 +1,30 @@
+".container": {
+	backgroundColor:"#C1CDCD",
+	exitOnClose: true,
+	fullscreen: false,
+	navBarHidden: true,
+	orientationModes: [Ti.UI.PORTRAIT]
+},
+"#screenView": {
+	width: '100%',
+	height: '100%'
+},
+"#gameEightButton": {
+	backgroundColor: '#CDCDB4',
+	borderColor: '#838B8B',
+	borderWidth: 5,
+    borderRadius: 20,
+	width: '50%',
+	height: '12%'
+},
+"#gameEightLabel":{
+	text: 'Jogar',
+	color: 'black',
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	font:{
+		fontSize: '25dp',
+		fontWeight: 'bold'
+	},
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL
+}
